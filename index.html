@@ -23,11 +23,11 @@
     <header style="background-color: #264653;" class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 d-flex align-items-center">
+                <div class="col-lg-6 d-flex align-items-center mb-5">
                     <div class="sub-header">
                         <p class="text-color">Computer-controlled digital transistorized with electronic advance</p>
                         <h1 class="text-white font-weight-bold my-3">Honda CBR 300R</h1>
-                        <p class="text-color mb-5">Amet minim mollit non deserunt ullamco est sit aliqua<br> dolor do
+                        <p class="text-color mb-4">Amet minim mollit non deserunt ullamco est sit aliqua<br> dolor do
                             amet
                             sint.
                             Velitofficia consequat duis enim velit <br>mollit. Exercitation veniam consequat sunt
@@ -35,7 +35,30 @@
                             amet.
                         </p>
 
-                        <button class="btn btn-primary custom-color px-5 border-0 py-2 rounded-5">Purchase</button>
+                        <button type="button" class="btn btn-primary custom-color px-5 border-0 py-2 rounded-5"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Survey</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        It's your favorite product?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">No</button>
+                                        <button type="button" class="btn btn-primary">Yes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -55,10 +78,10 @@
             </div>
             <div class="bike-section container py-5">
                 <div class="row">
-                    <div class="col-lg-4 gray-style">
+                    <div class="col-lg-4 col-sm-1 gray-style mb-5">
                         <img src="images/feature-bike.jpg" alt="" width="288" height="243">
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 mb-5">
                         <img src="images/feature-bike.jpg" alt="" width="288" height="243">
                     </div>
                     <div class="col-lg-4 gray-style">
@@ -134,10 +157,10 @@
                 <h2 class="text-center fw-bold font-poppins">Frequently Asked <span
                         class="common-color mb-5">Questions</span></h2>
                 <div class="row mt-5 py-5">
-                    <div class="col-lg-7">
+                    <div class="col-lg-6">
                         <img src="images/faq.png" alt="" class="img-fluid" width="431" height="423">
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-6">
                         <div class="accordion" id="accordionPanelsStayOpenExample">
                             <div class="accordion-item border border-2 mb-3">
                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -233,9 +256,7 @@
                 <h2 class="text-center fw-bold font-poppins">Why Buy <span class="common-color mb-5">Online</span></h2>
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="images/bike-1.png" alt="" class="img-fluid">
-                        <h4>Faster Checkout & Purchase</h4>
-                        <p>Work out the details of your purchase and fill out paperwork in advance.</p>
+
                     </div>
                 </div>
         </section>
