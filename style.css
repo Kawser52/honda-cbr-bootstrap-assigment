@@ -1,0 +1,16 @@
+body{
+    font-family: "Poppins",sans-serif;
+}
+
+.text-color{
+color:#E0E0E0;
+}
+.custom-color{
+    background: #E76F51;
+}
+.custom-color:hover{
+     background: #fd8c70;
+}
+.common-color{
+    color: #E76F51;
+}
