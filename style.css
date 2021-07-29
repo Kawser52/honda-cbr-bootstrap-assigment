@@ -35,3 +35,9 @@ color: #6C6C6C;
 .client-style{
     box-shadow: 0 0 2px rgba(0,0,0,0.6);
 }
+
+
+.cat-style:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    background-color: #fafafa;
+}
