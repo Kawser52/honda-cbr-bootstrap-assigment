@@ -14,3 +14,24 @@ color:#E0E0E0;
 .common-color{
     color: #E76F51;
 }
+.gray-style img{
+    filter: grayscale(100%);
+}
+.text-custom-color{
+color: #6C6C6C;
+}
+.icon{
+    color: #E77C40;
+}
+.name-color{
+    color: #23A6F0;
+    font-weight: 600;
+}
+.designation{
+    color: #252B42;
+    font-weight: 600;
+}
+
+.client-style{
+    box-shadow: 0 0 2px rgba(0,0,0,0.6);
+}
